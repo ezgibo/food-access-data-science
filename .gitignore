@@ -1,0 +1,28 @@
+# Local data and restricted files
+data/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.db
+*.sqlite*
+*.zip
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+.venv/
+venv/
+
+# Working files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+*.log
+*.tmp
